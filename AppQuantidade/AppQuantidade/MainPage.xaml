@@ -13,7 +13,7 @@
             HorizontalTextAlignment="Center"
             Text="Quantidade" />
         <Label
-            x:Name="LblQuantidade"
+            x:Name="LblCount"
             FontSize="48"
             HorizontalTextAlignment="Center"
             Text="1"

@@ -10,7 +10,7 @@ namespace AppQuantidade
 {
     public partial class MainPage : ContentPage
     {
-        private int quantidade = 1;
+        private int count = 1;
 
         public MainPage()
         {
@@ -19,16 +19,16 @@ namespace AppQuantidade
 
         private void HandleIncrease(object sender, EventArgs e)
         {
-            quantidade++;
-            LblQuantidade.Text = quantidade.ToString();
+            count++;
+            LblCount.Text = count.ToString();
         }
 
         private void HandleDecrease(object sender, EventArgs e)
         {
-           if(quantidade != 0)
+            if (count != 0)
             {
-                quantidade--;
-                LblQuantidade.Text = quantidade.ToString();
+                count--;
+                LblCount.Text = count.ToString();
             }
         }
     }
